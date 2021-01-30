@@ -6,10 +6,9 @@
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
-        <net-file value="HongNet.net.xml"/>
+        <net-file value="BookNet.net.xml"/>
         <!--<route-files value="osm.passenger.trips.xml"/>-->
 	<route-files value="routes_filter.rou.xml"/>
-	<additional-files value="initial01.add.xml"/>
 
     </input>
 	<time>
