@@ -33,11 +33,7 @@ Here, input net file is osm_netconvert.net.xml that is converted by using netcon
 Remove common routes
 =============================================================================
 If users want to reduce some routes that are duplicated, users can use remove_commonRoutes.py. Input file is the generated route file from randomTrips.py.
-Output file is removeCommonRoutes.rou.xml.
-
-![alt text](removeRoutes_1.PNG)
-
-![alt text](removeRoutes_2.PNG)
+Output file is removeCommonRoutes.rou.xml. Users can run by clicking **removeCommonRoutes.bat** file.
 
 Sampling using routeSampler
 =============================================================================
