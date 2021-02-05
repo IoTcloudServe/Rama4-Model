@@ -6,7 +6,7 @@ To generate the network topology of our point of interest area, we can use OSMWe
 
 ![alt text](osmBangkok_1.PNG)
 
-![alt text](https://github.com/IoTcloudServe/Rama4-Model/dynamic-traffic-assignment-kasemrat/2021-02-05-09-37-42/osmBangkok_2.PNG?,raw=true)
+![alt text](osmBangkok_2.PNG)
 
 The generated folder is with the name of "yyyy-mm-dd-hh-mm-ss". For more detail, you can go this link https://sumo.dlr.de/docs/Tutorials/OSMWebWizard.html.
 
@@ -35,9 +35,9 @@ Remove Common Routes
 If users want to reduce some routes that are duplicated, users can use remove_commonRoutes.py. Input file is the generated route file from randomTrips.py.
 Output file is removeCommonRoutes.rou.xml.
 
-![alt text](https://github.com/IoTcloudServe/Rama4-Model/tree/main/dynamic-traffic-assignment-kasemrat/2021-02-05-09-37-42/removeRoutes_1.PNG)
+![alt text](removeRoutes_1.PNG)
 
-![alt text](https://github.com/IoTcloudServe/Rama4-Model/tree/main/dynamic-traffic-assignment-kasemrat/2021-02-05-09-37-42/removeRoutes_2.PNG)
+![alt text](removeRoutes_2.PNG)
 
 Sampling using routeSampler
 =============================================================================
@@ -49,7 +49,7 @@ Setting in osm.sumoconfig
 =============================================================================
 Users need to change route file and net file in osm.sumoconfig file as shown in the following figure.
 
-![alt text](https://github.com/IoTcloudServe/Rama4-Model/tree/main/dynamic-traffic-assignment-kasemrat/2021-02-05-09-37-42/setting_in_sumoconfig.PNG)
+![alt text](setting_in_sumoconfig.PNG)
 
 run.bat
 =============================================================================
