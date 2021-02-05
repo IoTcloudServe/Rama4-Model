@@ -47,10 +47,10 @@ python "%SUMO_HOME%\tools\routeSampler.py" -r removeCommonRoutes.rou.xml --turn-
 
 Setting in osm.sumoconfig
 =============================================================================
-User needs to change route file and net file in osm.sumoconfig file as shown in the following figure.
+Users need to change route file and net file in osm.sumoconfig file as shown in the following figure.
 
 ![alt text](https://github.com/IoTcloudServe/Rama4-Model/tree/main/dynamic-traffic-assignment-kasemrat/2021-02-05-09-37-42/setting_in_sumoconfig.PNG)
 
 run.bat
 =============================================================================
-Now, user can run by clicking run.bat file.
+Now, users can run by clicking run.bat file.
