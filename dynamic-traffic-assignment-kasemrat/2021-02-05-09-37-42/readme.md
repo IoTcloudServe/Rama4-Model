@@ -16,14 +16,14 @@ Users can remove all edges which can not be used by passenger vehicles:
 
 **netconvert --sumo-net-file osm.net.xml --lefthand --remove-edges.by-vclass hov,taxi,bus,delivery,transport,lightrail,cityrail,rail_slow,rail_fast,motorcycle,bicycle,pedestrian -o osm_netconvert.net.xml**
 
+For more detail, you can go this link, https://sumo.dlr.de/docs/Networks/Import/OpenStreetMap.html#dismissing_unwanted_traffic_modes
+
 Reduce network using netconvert
 =============================================================================
 Users can also reduce the network size with the following options:
 
 **netconvert --sumo-net-file osm.net.xml --lefthand --no-internal-links --keep-edges.by-vclass passenger --remove-edges.by-type highway.track,highway.services,highway.unsurfaced -o osm_netconvert.net.xml**
 
-For more detail, you can go this link, https://sumo.dlr.de/docs/Networks/Import/OpenStreetMap.html#dismissing_unwanted_traffic_modes
-  
 Generate routes using randomTrips in build.bat file
 =============================================================================
 **python "%SUMO_HOME%\tools\randomTrips.py" -n osm_netconvert.net.xml --seed 42 --fringe-factor 300 -p 0.253626 -o osm.passenger.trips.xml -e 3600 --vehicle-class passenger --vclass passenger --prefix veh --min-distance 300 --trip-attributes "departLane=\"best\"" --fringe-start-attributes "departSpeed=\"max\"" --allow-fringe.min-length 1000 --lanes --validate**
