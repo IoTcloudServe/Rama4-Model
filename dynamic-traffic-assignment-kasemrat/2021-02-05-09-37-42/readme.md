@@ -20,9 +20,9 @@ Reduce Network
 =============================================================================
 Users can also reduce the network size with the following options:
 
---no-internal-links --keep-edges.by-vclass passenger --remove-edges.by-type highway.track,highway.services,highway.unsurfaced
+netconvert --sumo-net-file osm.net.xml --lefthand --no-internal-links --keep-edges.by-vclass passenger --remove-edges.by-type highway.track,highway.services,highway.unsurfaced
 
- For more detail, you can go this link, https://sumo.dlr.de/docs/Networks/Import/OpenStreetMap.html#dismissing_unwanted_traffic_modes
+For more detail, you can go this link, https://sumo.dlr.de/docs/Networks/Import/OpenStreetMap.html#dismissing_unwanted_traffic_modes
   
 Generate Routes in build.bat file
 =============================================================================
