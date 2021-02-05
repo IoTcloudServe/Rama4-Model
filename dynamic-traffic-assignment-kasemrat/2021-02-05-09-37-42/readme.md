@@ -1,7 +1,7 @@
 
 <h2>
 <p align="center">
-<strong> Dynamic Traffic Assignment Using Open Street Map and Simulation of Urban Mobility</strong>
+<strong> Dynamic Traffic Assignment Using Open Street Map and Simulation of Urban MObility</strong>
 <p align="center">
 </h2> 
 
@@ -57,5 +57,8 @@ osm.sumoconfig
 
 &nbsp; User needs to change route file and net file in osm.sumoconfig file as shown in the following figure.
 
+<p align="center">
+  <img width="460" height="300" src="https://github.com/IoTcloudServe/Rama4-Model/tree/main/dynamic-traffic-assignment-kasemrat/2021-02-05-09-37-42/setting_in_sumoconfig.PNG">
+</p>
 
 &nbsp; Now, user can run by clicking run.bat file.
