@@ -1,6 +1,6 @@
 ## Dynamic Traffic Assignment Using Open Street Map and Simulation of Urban MObility</strong>
 
-### Generate network topology
+Generate network topology
 =============================================================================
 To generate the network topology of our point of interest area, we can use OSMWebWizard. Users can invoke the OSMWebWizard by clicking **"%SUMO_HOME%\tools\osmWebWizard.py"**. Once the script is running, a web browser will open showing a map excerpt of central Berlin. Users can type any city name that you want.
 
@@ -10,13 +10,13 @@ To generate the network topology of our point of interest area, we can use OSMWe
 
 The generated folder is with the name of **"yyyy-mm-dd-hh-mm-ss"**. For more detail, you can go this link https://sumo.dlr.de/docs/Tutorials/OSMWebWizard.html.
 
-### Remove edges using netconvert
+Remove edges using netconvert
 =============================================================================
 Users can remove all edges which can not be used by passenger vehicles: 
 
 **netconvert --sumo-net-file osm.net.xml --lefthand --remove-edges.by-vclass hov,taxi,bus,delivery,transport,lightrail,cityrail,rail_slow,rail_fast,motorcycle,bicycle,pedestrian -o osm_netconvert.net.xml**
 
-### Reduce network using netconvert
+Reduce network using netconvert
 =============================================================================
 Users can also reduce the network size with the following options:
 
@@ -24,13 +24,13 @@ Users can also reduce the network size with the following options:
 
 For more detail, you can go this link, https://sumo.dlr.de/docs/Networks/Import/OpenStreetMap.html#dismissing_unwanted_traffic_modes
   
-### Generate routes using randomTrips in build.bat file
+Generate routes using randomTrips in build.bat file
 =============================================================================
 **python "%SUMO_HOME%\tools\randomTrips.py" -n osm_netconvert.net.xml --seed 42 --fringe-factor 300 -p 0.253626 -o osm.passenger.trips.xml -e 3600 --vehicle-class passenger --vclass passenger --prefix veh --min-distance 300 --trip-attributes "departLane=\"best\"" --fringe-start-attributes "departSpeed=\"max\"" --allow-fringe.min-length 1000 --lanes --validate**
 
 Here, input net file is osm_netconvert.net.xml that is converted by using netconvert. The option **--fringe-factor** is used to increase the probability that trips will start/end at the fringe (boundary) of the network. Output files are routes.rou.xml and routes.rou.alt.xml. For more detail, you can go this link, https://sumo.dlr.de/docs/Tools/Trip.html#randomtripspy and https://sumo.dlr.de/docs/Tools/Trip.html#edge_probabilities.
 
-### Remove common routes
+Remove common routes
 =============================================================================
 If users want to reduce some routes that are duplicated, users can use remove_commonRoutes.py. Input file is the generated route file from randomTrips.py.
 Output file is removeCommonRoutes.rou.xml.
@@ -39,7 +39,7 @@ Output file is removeCommonRoutes.rou.xml.
 
 ![alt text](removeRoutes_2.PNG)
 
-### Sampling using routeSampler
+Sampling using routeSampler
 =============================================================================
 The routeSampler script can generate routes from turn-count data, edge-count and even origin-destination-count data. It requires a route file as input that defines possible routes.
 
@@ -47,12 +47,12 @@ The routeSampler script can generate routes from turn-count data, edge-count and
 
 For more detail, you can go this link, https://sumo.dlr.de/docs/Tools/Turns.html#routesamplerpy
 
-### Setting in osm.sumoconfig
+Setting in osm.sumoconfig
 =============================================================================
 Users need to change route file and net file in osm.sumoconfig file as shown in the following figure.
 
 ![alt text](setting_in_sumoconfig.PNG)
 
-### run.bat
+run.bat
 =============================================================================
 Now, users can run by clicking run.bat file.
