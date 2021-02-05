@@ -8,7 +8,7 @@
 >To generate the network topology of our point of interest area, we can use OSMWebWizard. Users can invoke the OSMWebWizard by clicking "%SUMO_HOME%\tools\osmWebWizard.py". Once the script is running, a web browser will open showing a map excerpt of central Berlin. Users can type any city name that you want.
 
 <p align="center">
-  <img width="150" height="100" src="https://github.com/IoTcloudServe/Rama4-Model/tree/main/dynamic-traffic-assignment-kasemrat/2021-02-05-09-37-42/osmBangkok_1.PNG">
+  <img width="250" height="200" src="https://github.com/IoTcloudServe/Rama4-Model/tree/main/dynamic-traffic-assignment-kasemrat/2021-02-05-09-37-42/osmBangkok_1.PNG">
 </p>
 
 <p align="center">
@@ -27,7 +27,7 @@ netconvert --sumo-net-file osm.net.xml --lefthand --remove-edges.by-vclass hov,t
 
 >For more detail, you can go this link, https://sumo.dlr.de/docs/Networks/Import/OpenStreetMap.html#dismissing_unwanted_traffic_modes
 
-in build.bat file
+#in build.bat file
 
 python "%SUMO_HOME%\tools\randomTrips.py" -n osm_netconvert.net.xml --seed 42 --fringe-factor 300 -p 0.253626 -o osm.passenger.trips.xml -e 3600 --vehicle-class passenger --vclass passenger --prefix veh --min-distance 300 --trip-attributes "departLane=\"best\"" --fringe-start-attributes "departSpeed=\"max\"" --allow-fringe.min-length 1000 --lanes --validate
 
@@ -52,7 +52,7 @@ python "%SUMO_HOME%\tools\routeSampler.py" -r removeCommonRoutes.rou.xml --turn-
 &nbsp;For more detail, you can go this link, https://sumo.dlr.de/docs/Tools/Turns.html#routesamplerpy
 
 
-in osm.sumoconfig
+#in osm.sumoconfig
 
 >User needs to change route file and net file in osm.sumoconfig file as shown in the following figure.
 
