@@ -5,7 +5,7 @@
 <p align="center">
 </h2> 
 
-#To generate the network topology of our point of interest area, we can use OSMWebWizard. Users can invoke the OSMWebWizard by clicking "%SUMO_HOME%\tools\osmWebWizard.py". Once the script is running, a web browser will open showing a map excerpt of central Berlin. Users can type any city name that you want.
+>To generate the network topology of our point of interest area, we can use OSMWebWizard. Users can invoke the OSMWebWizard by clicking "%SUMO_HOME%\tools\osmWebWizard.py". Once the script is running, a web browser will open showing a map excerpt of central Berlin. Users can type any city name that you want.
 
 <p align="center">
   <img width="460" height="300" src="https://github.com/IoTcloudServe/Rama4-Model/tree/main/dynamic-traffic-assignment-kasemrat/2021-02-05-09-37-42/osmBangkok_1.PNG">
