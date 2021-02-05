@@ -14,7 +14,7 @@
 <p align="center">
   <img width="460" height="300" src="https://github.com/IoTcloudServe/Rama4-Model/tree/main/dynamic-traffic-assignment-kasemrat/2021-02-05-09-37-42/osmBangkok_2.PNG">
 </p>
-The generated folder is with the name of "yyyy-mm-dd-hh-mm-ss". For more detail, you can go this link https://sumo.dlr.de/docs/Tutorials/OSMWebWizard.html.
+&nbsp;The generated folder is with the name of "yyyy-mm-dd-hh-mm-ss". For more detail, you can go this link https://sumo.dlr.de/docs/Tutorials/OSMWebWizard.html.
 
 2. Users can remove all edges which can not be used by passenger vehicles: 
 
@@ -24,7 +24,7 @@ netconvert --sumo-net-file osm.net.xml --lefthand --remove-edges.by-vclass hov,t
 
 --no-internal-links --keep-edges.by-vclass passenger --remove-edges.by-type highway.track,highway.services,highway.unsurfaced
 
-For more detail, you can go this link, https://sumo.dlr.de/docs/Networks/Import/OpenStreetMap.html#dismissing_unwanted_traffic_modes
+&nbsp;For more detail, you can go this link, https://sumo.dlr.de/docs/Networks/Import/OpenStreetMap.html#dismissing_unwanted_traffic_modes
 
 4. in build.bat file
 
