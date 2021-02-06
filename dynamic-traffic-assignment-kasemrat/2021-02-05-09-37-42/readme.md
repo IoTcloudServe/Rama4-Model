@@ -52,3 +52,14 @@ Users need to change route file and net file in osm.sumoconfig file as shown in 
 run.bat
 =============================================================================
 Now, users can run by clicking run.bat file.
+
+Transform routes into polygons for visualization
+=============================================================================
+
+**python "%SUMO_HOME%\tools\route\route2poly.py" osm_netconvert.net.xml routesWithTurnRatioData.rou.xml**
+
+![alt text](setting_in_sumoconfig_2.PNG)
+
+![alt text](poly.PNG)
+
+For more detail, you can go this link, https://sumo.dlr.de/docs/Tools/Routes.html#route2polypy
