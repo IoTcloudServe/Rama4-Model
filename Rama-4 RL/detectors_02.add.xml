@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='ASCII'?>
+<additionals>
+  <e2Detector id="824816455_0" lane="824816455_0" pos="0.0" endPos="0.00" friendlyPos="True" length="278.53" freq="2.00" file="map_grid_lock_output1.xml" cont="0" timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+  <e2Detector id="824816455_1" lane="824816455_1" pos="0.0" endPos="0.00" friendlyPos="True" length="278.53" freq="2.00" file="map_grid_lock_output1.xml" cont="0" timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+  <e2Detector id="824816455_2" lane="824816455_2" pos="0.0" endPos="0.00" friendlyPos="True" length="278.53" freq="2.00" file="map_grid_lock_output1.xml" cont="0" timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+  <e2Detector id="824816456_0" lane="824816456_0" pos="0.0" endPos="0.00" friendlyPos="True" length="274.75" freq="2.00" file="map_grid_lock_output1.xml" cont="0" timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+  <e2Detector id="824816456_1" lane="824816456_1" pos="0.0" endPos="0.00" friendlyPos="True" length="274.75" freq="2.00" file="map_grid_lock_output1.xml" cont="0" timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+  <e2Detector id="824816456_2" lane="824816456_2" pos="0.0" endPos="0.00" friendlyPos="True" length="274.75" freq="2.00" file="map_grid_lock_output1.xml" cont="0" timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+  <e2Detector id="824116560#0_0" lane="824116560#0_0" pos="0.0" endPos="0.00" friendlyPos="True" length="20.9" freq="2.00" file="map_grid_lock_output1.xml" cont="0" timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+  <e2Detector id="824116560#0_1" lane="824116560#0_1" pos="0.0" endPos="0.00" friendlyPos="True" length="20.9" freq="2.00" file="map_grid_lock_output1.xml" cont="0" timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+  <e2Detector id="824116560#0_2" lane="824116560#0_2" pos="0.0" endPos="0.00" friendlyPos="True" length="20.9" freq="2.00" file="map_grid_lock_output1.xml" cont="0" timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+  <e2Detector id="824116560#0_3" lane="824116560#0_3" pos="0.0" endPos="0.00" friendlyPos="True" length="20.9" freq="2.00" file="map_grid_lock_output1.xml" cont="0" timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+</additionals>
