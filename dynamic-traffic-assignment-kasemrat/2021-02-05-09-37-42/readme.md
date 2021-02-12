@@ -16,7 +16,7 @@ Users can remove all edges which can not be used by passenger vehicles:
 
 **netconvert --sumo-net-file osm.net.xml --lefthand --remove-edges.by-vclass hov,taxi,bus,delivery,transport,lightrail,cityrail,rail_slow,rail_fast,motorcycle,bicycle,pedestrian -o osm_netconvert.net.xml**
 
-For more detail, you can go this link, https://sumo.dlr.de/docs/Networks/Import/OpenStreetMap.html#dismissing_unwanted_traffic_modes
+For more detail : https://sumo.dlr.de/docs/Networks/Import/OpenStreetMap.html#dismissing_unwanted_traffic_modes
 
 Reduce network using netconvert
 =============================================================================
@@ -28,7 +28,7 @@ Generate routes using randomTrips in build.bat file
 =============================================================================
 **python "%SUMO_HOME%\tools\randomTrips.py" -n osm_netconvert.net.xml --seed 42 --fringe-factor 300 -p 0.253626 -o osm.passenger.trips.xml -e 3600 --vehicle-class passenger --vclass passenger --prefix veh --min-distance 300 --trip-attributes "departLane=\"best\"" --fringe-start-attributes "departSpeed=\"max\"" --allow-fringe.min-length 1000 --lanes --validate**
 
-Here, input net file is osm_netconvert.net.xml that is converted by using netconvert. The option **--fringe-factor** is used to increase the probability that trips will start/end at the fringe (boundary) of the network. Output files are routes.rou.xml and routes.rou.alt.xml. For more detail, you can go this link, https://sumo.dlr.de/docs/Tools/Trip.html#randomtripspy and https://sumo.dlr.de/docs/Tools/Trip.html#edge_probabilities.
+Here, input net file is osm_netconvert.net.xml that is converted by using netconvert. The option **--fringe-factor** is used to increase the probability that trips will start/end at the fringe (boundary) of the network. Output files are routes.rou.xml and routes.rou.alt.xml. For more detail : https://sumo.dlr.de/docs/Tools/Trip.html#randomtripspy and https://sumo.dlr.de/docs/Tools/Trip.html#edge_probabilities.
 
 Remove common routes
 =============================================================================
@@ -41,7 +41,7 @@ The routeSampler script can generate routes from turn-count data, edge-count and
 
 **python "%SUMO_HOME%\tools\routeSampler.py" -r removeCommonRoutes.rou.xml --turn-files turn3_modified_31122020.xml -o routesWithTurnRatioData.rou.xml**
 
-For more detail, you can go this link, https://sumo.dlr.de/docs/Tools/Turns.html#routesamplerpy
+For more detail : https://sumo.dlr.de/docs/Tools/Turns.html#routesamplerpy
 
 Setting in osm.sumoconfig
 =============================================================================
@@ -62,4 +62,4 @@ Transform routes into polygons for visualization
 
 ![alt text](poly.PNG)
 
-For more detail, you can go this link, https://sumo.dlr.de/docs/Tools/Routes.html#route2polypy
+For more detail : https://sumo.dlr.de/docs/Tools/Routes.html#route2polypy
