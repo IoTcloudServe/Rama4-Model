@@ -8,7 +8,7 @@ To generate the network topology of our point of interest area, we can use OSMWe
 
 ![alt text](osmBangkok_2.PNG)
 
-The generated folder is with the name of **"yyyy-mm-dd-hh-mm-ss"**. For more detail, you can go this link https://sumo.dlr.de/docs/Tutorials/OSMWebWizard.html.
+The generated folder is with the name of **"yyyy-mm-dd-hh-mm-ss"**. For more detail : https://sumo.dlr.de/docs/Tutorials/OSMWebWizard.html.
 
 Remove edges using netconvert
 =============================================================================
