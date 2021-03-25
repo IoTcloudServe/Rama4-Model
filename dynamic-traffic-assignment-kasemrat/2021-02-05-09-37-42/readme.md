@@ -12,7 +12,7 @@ The generated folder is with the name of **"yyyy-mm-dd-hh-mm-ss"**. For more det
 
 Remove edges using netconvert
 =============================================================================
-Users can remove all edges which can not be used by passenger vehicles. Here, if your road network is with  left-hand drive, please use **--lefthand** option for every time that you convert the network. 
+Users can remove all edges which can not be used by passenger vehicles. Here, if your road network is with  left-hand drive, please use **"--lefthand"** option for every time that you convert the network. 
 
 **netconvert --sumo-net-file osm.net.xml --lefthand --remove-edges.by-vclass hov,taxi,bus,delivery,transport,lightrail,cityrail,rail_slow,rail_fast,motorcycle,bicycle,pedestrian -o osm_netconvert.net.xml**
 
