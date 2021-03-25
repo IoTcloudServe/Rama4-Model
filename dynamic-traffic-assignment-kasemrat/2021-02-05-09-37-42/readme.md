@@ -12,7 +12,7 @@ The generated folder is with the name of **"yyyy-mm-dd-hh-mm-ss"**. For more det
 
 Remove edges using netconvert
 =============================================================================
-Users can remove all edges which can not be used by passenger vehicles: 
+Users can remove all edges which can not be used by passenger vehicles. Here, if your road network is with  left-hand drive, please use **--lefthand** option for every time that you convert the network. 
 
 **netconvert --sumo-net-file osm.net.xml --lefthand --remove-edges.by-vclass hov,taxi,bus,delivery,transport,lightrail,cityrail,rail_slow,rail_fast,motorcycle,bicycle,pedestrian -o osm_netconvert.net.xml**
 
@@ -20,7 +20,7 @@ For more detail : https://sumo.dlr.de/docs/Networks/Import/OpenStreetMap.html#di
 
 Reduce network using netconvert
 =============================================================================
-Users can also reduce the network size with the following options:
+Users can also reduce the network size with the following options. 
 
 **netconvert --sumo-net-file osm.net.xml --lefthand --no-internal-links --keep-edges.by-vclass passenger --remove-edges.by-type highway.track,highway.services,highway.unsurfaced -o osm_netconvert.net.xml**
 
