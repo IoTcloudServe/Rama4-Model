@@ -55,6 +55,7 @@ Now, users can run by clicking run.bat file.
 
 Transform routes into polygons for visualization
 =============================================================================
+The input of route2poly.py python program is netfile and route file as shown below.
 
 **python "%SUMO_HOME%\tools\route\route2poly.py" osm_netconvert.net.xml routesWithTurnRatioData.rou.xml**
 
