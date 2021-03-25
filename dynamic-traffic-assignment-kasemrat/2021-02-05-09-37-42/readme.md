@@ -45,7 +45,7 @@ For more detail : https://sumo.dlr.de/docs/Tools/Turns.html#routesamplerpy
 
 Setting in osm.sumoconfig
 =============================================================================
-Users need to change route file and net file in osm.sumoconfig file as shown in the following figure.
+Users need to change route file, net file and time setting in osm.sumoconfig file as shown in the following figure.
 
 ![alt text](setting_in_sumoconfig.PNG)
 
