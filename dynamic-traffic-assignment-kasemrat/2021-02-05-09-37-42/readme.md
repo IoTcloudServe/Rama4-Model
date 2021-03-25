@@ -2,7 +2,7 @@
 
 Generate network topology
 =============================================================================
-To generate the network topology of our point of interest area, we can use OSMWebWizard. Users can invoke the OSMWebWizard by clicking **"%SUMO_HOME%\tools\osmWebWizard.py"**. Once the script is running, a web browser will open showing a map excerpt of central Berlin. Users can type any city name that you want. User can type traffic demand for any traffic mode that you want.
+To generate the network topology of our point of interest area, we can use OSMWebWizard. Users can invoke the OSMWebWizard by clicking **"%SUMO_HOME%\tools\osmWebWizard.py"**. Once the script is running, a web browser will open showing a map excerpt of central Berlin. Users can type any city name that you want. Also, user can type traffic demand for any traffic mode that you want.
 
 ![alt text](osmBangkok_1.PNG)
 
