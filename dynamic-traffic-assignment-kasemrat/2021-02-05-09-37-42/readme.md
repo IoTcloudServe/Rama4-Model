@@ -37,7 +37,7 @@ Output file is **removeCommonRoutes.rou.xml**. Users can run by clicking **remov
 
 Sampling using routeSampler
 =============================================================================
-The routeSampler script can generate routes from turn-count data, edge-count and even origin-destination-count data. It requires a route file as input that defines possible routes. Here, we use turn ratio data from BMA. Turn ratio data file is **turn3_modified_31122020.xml**. Turn ratio data is from 3PM to 7PM for all intersections in the Kasemrat area.
+The routeSampler script can generate routes from turn-count data, edge-count and even origin-destination-count data. It requires a route file as input that defines possible routes. Here, we use turn ratio data from BMA. Turn ratio data file is **turn3_modified_31122020.xml**. Turn ratio data has about 4 hours data from 3PM to 7PM for all intersections in the Kasemrat area. The output file is **routesWithTurnRatioData.rou.xml**.
 
 **python "%SUMO_HOME%\tools\routeSampler.py" -r removeCommonRoutes.rou.xml --turn-files turn3_modified_31122020.xml -o routesWithTurnRatioData.rou.xml**
 
